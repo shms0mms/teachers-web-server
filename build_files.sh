@@ -1,13 +1,14 @@
-#!/bin/bash
+# Create virtual environment
+python3.9 -m venv venv
 
-which pip
-which python3.9
+# Activate virtual environment
+source venv/Scripts/activate
 
-# Update pip3.9
-python3.9 -m pip3.9 install --upgrade pip3.9
+# Upgrade pip
+pip install --upgrade pip
 
 # Install requirements
-python3.9 -m pip3.9 install -r requirements.txt
+pip install -r requirements.txt
 
-# Collect Static Files on Deploy
-python3.9 manage.py collectstatic 
+# Collect static files
+python manage.py collectstatic
