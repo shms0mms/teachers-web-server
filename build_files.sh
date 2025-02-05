@@ -1,13 +1,13 @@
 #!/bin/bash
 
-which pip
-which python
+which pip3.9
+which python3.9
 
-# Update pip
-python -m pip install --upgrade pip
+# Update pip3.9
+python3.9 -m pip3.9 install --upgrade pip3.9
 
 # Install requirements
-python -m pip install -r requirements.txt
+python3.9 -m pip3.9 install -r requirements.txt
 
 # Collect Static Files on Deploy
-python manage.py collectstatic 
+python3.9 manage.py collectstatic 
