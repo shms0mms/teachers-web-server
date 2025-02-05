@@ -1,6 +1,6 @@
 #!/bin/bash
 
-which pip3.9
+which pip
 which python3.9
 
 # Update pip3.9
