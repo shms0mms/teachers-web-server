@@ -3,9 +3,6 @@
 # Create virtual environment
 python3.9 -m venv venv
 
-# List directory contents
-ls
-
 # Activate virtual environment
 source venv/bin/activate
 
@@ -17,3 +14,7 @@ pip install -r requirements.txt
 
 # Collect static files
 python manage.py collectstatic --no-input
+
+# Move static files to distDir
+mkdir -p staticfiles_build
+cp -R staticfiles/* staticfiles_build/
