@@ -1,5 +1,10 @@
+#!/bin/bash
+
 # Create virtual environment
 python3.9 -m venv venv
+
+# List directory contents
+ls
 
 # Activate virtual environment
 source venv/Scripts/activate
