@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-%i!4c+2l5*i488kh-j4fx^&e1d%sypvt8g&#ua)0d1_*=gesx!
 DEBUG = True  # Включаем отладочный режим для тестирования
 ALLOWED_HOSTS = ['*']  # Разрешены все хосты
 
-AUTH_USER_MODEL = 'teachers.CustomUser'
+AUTH_USER_MODEL = 'teachers.CustmoUser'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
