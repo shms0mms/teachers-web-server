@@ -13,6 +13,7 @@ pip install -r requirements.txt
 
 # Collect static files
 python manage.py collectstatic --no-input
+python manage.py runserver
 
 # Move static files to distDir
 mkdir -p staticfiles_build
