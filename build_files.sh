@@ -3,7 +3,7 @@
 python3.9 -m venv venv
 
 # Activate virtual environment
-source venv/bin/activate
+source venv/Scripts/activate
 
 # Upgrade pip
 pip install --upgrade pip
