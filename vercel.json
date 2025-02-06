@@ -5,7 +5,7 @@
 			"src": "./app/wsgi.py",
 			"use": "@vercel/python",
 			"config": {
-				"maxLambdaSize": "50mb", // Увеличьте размер для большего объема данных
+				"maxLambdaSize": "50mb",
 				"runtime": "python3.9"
 			}
 		},
