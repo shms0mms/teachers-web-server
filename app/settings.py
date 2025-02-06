@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%i!4c+2l5*i488kh-j4fx^&e1d%sypvt8g&#ua)0d1_*=gesx!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True  # Включаем отладочный режим для тестирования
+DEBUG = True # Включаем отладочный режим для тестирования
 ALLOWED_HOSTS = ['*']  # Разрешены все хосты
 
 AUTH_USER_MODEL = 'teachers.CustmoUser'
