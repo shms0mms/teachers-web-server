@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Create virtual environment
 python3.9 -m venv venv
 
 # Activate virtual environment
