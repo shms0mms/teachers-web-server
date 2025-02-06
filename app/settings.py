@@ -27,7 +27,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['*']  
 
 AUTH_USER_MODEL = 'teachers.CustmoUser'
